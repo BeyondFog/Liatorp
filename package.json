@@ -12,6 +12,6 @@
   , "should": ">=0.5.1"
   }
   , "scripts": {
-    "test": "mocha -R tap"
+    "test": "mocha -R tap --ignore-leaks"
   }
 }
